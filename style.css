@@ -8,4 +8,20 @@ body {
   margin: 0;
   font-family: "Inter" sans-serif;
   background: linear-gradient(45deg, #131086, #b621f3);
+  padding: 40px;
+}
+
+.container {
+  min-height: calc(100vh - 80px);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.login-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: content;
+  padding-left: 150px;
 }/*# sourceMappingURL=style.css.map */
