@@ -126,6 +126,18 @@ button {
   cursor: pointer;
 }
 
+.alert-err{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(255, 0, 0, 0.5);
+  display: block;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
 /*Responsive*/
 @media (max-width: 1350px) {
   .login-left {
