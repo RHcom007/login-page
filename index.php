@@ -21,8 +21,15 @@
       <!-- Login Left -->
       <div class="login-left">
         <div class="login-header">
+
+        <!-- function alert false -->
           <?php if(isset($_GET['success'])):if ($_GET['success'] == 'false'):?>
             <div class="alert-err">Email atau password yang anda masukkan salah</div>
+          <?php endif;endif; ?>
+
+            <!-- function alert true -->
+          <?php if(isset($_GET['success'])):if ($_GET['success'] == 'true'):?>
+            <div class="alert-succes">Email atau password yang anda masukkan benar</div>
           <?php endif;endif; ?>
           <h1>Welcome to Our Application</h1>
           <p>Please login to use the platform</p>

@@ -89,8 +89,8 @@ body {
   font-size: 14px;
 }
 
-input[type=text],
-input[type=password] {
+input[type="text"],
+input[type="password"] {
   border: 1px solid black;
   height: 55px;
   padding: 0 2rem;
@@ -107,7 +107,7 @@ input[type=password] {
   gap: 7px;
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   width: 20px;
   height: 20px;
   accent-color: #131086;
@@ -126,11 +126,23 @@ button {
   cursor: pointer;
 }
 
-.alert-err{
+.alert-err {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-color: #ea4871;
+  display: block;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.alert-succes {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #52c7a3;
   display: block;
   color: white;
   border-radius: 8px;
@@ -161,4 +173,4 @@ button {
   .login-right {
     display: none;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
