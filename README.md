@@ -8,3 +8,5 @@ Halo semuanya, saya mendesain halaman login ini hanya menggunakan HTML dan CSS. 
 - Live Sass Compiler : https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
 - Live Server : https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 - Prettier - Code formatter : https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode#:~:text=Prettier%20is%20an%20opinionated%20code,account%2C%20wrapping%20code%20when%20necessary.
+
+# ScreenShoot
